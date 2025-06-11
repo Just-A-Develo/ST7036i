@@ -1,0 +1,31 @@
+{
+  "name": "ST7036i",
+  "version": "1.0.0",
+  "description": "An \"ST7036i\" Library for displaying text on a 2x20 COG LCD display ",
+  "keywords": "LCD, COG, ST7036i, ST70, LCD display, display",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Just-A-Develo/ST7036i.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Just-A-Develo",
+      "email": "ST7036i@ST7036i.io",
+      "url": ""
+    }
+  ],
+  "export": {
+    "exclude":
+    [
+        "test/*"
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ownername/print": "~1.3.0"
+  },
+  "frameworks": ["Arduino"],
+  "platforms": ["espressif8266"]
+}
